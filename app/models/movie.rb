@@ -1,6 +1,6 @@
 class Movie < ApplicationRecord
   belongs_to :genre
-  belongs_to :rental
+  has_many :rentals
 
   validates :title, presence: true
   validates :number_in_stock, numericality: true
