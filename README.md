@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# Movie-Rental
+Movie rental app
+>>>>>>> 16cd4a6cc9363a072df52a18d0084914f7e50a17
