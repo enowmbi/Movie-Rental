@@ -1,4 +1,5 @@
 class Customer < ApplicationRecord
+  belongs_to :rental
 
   VALID_PHONE_NUMBER = /\d[0-9]\)*\z/
   VALID_EMAIL_ADDRESS =/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i
