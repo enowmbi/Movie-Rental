@@ -3,39 +3,57 @@
   <head>
     <title>Code coverage for Movie rental</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <script src='./assets/0.10.2/application.js' type='text/javascript'></script>    
-    <link href='./assets/0.10.2/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.2/favicon_red.png" />
-    <link rel="icon" type="image/png" href="./assets/0.10.2/favicon.png" />
+    <script src='./assets/0.11.0/application.js' type='text/javascript'></script>
+    <link href='./assets/0.11.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="./assets/0.11.0/favicon_green.png" />
+    <link rel="icon" type="image/png" href="./assets/0.11.0/favicon.png" />
   </head>
-  
+
   <body>
     <div id="loading">
-      <img src="./assets/0.10.2/loading.gif" alt="loading"/>
+      <img src="./assets/0.11.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-12-07T19:25:27+01:00">2019-12-07T19:25:27+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-02-05T05:44:02+01:00">2020-02-05T05:44:02+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">71.79%</span></span>
+    (<span class="covered_percent">
+      <span class="green">
+  92.47%
+</span>
+
+     </span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.71
+         0.92
        </span>
-    </span> hits/line)
+    </span> hits/line
+    )
   </h2>
+
   <a name="AllFiles"></a>
+
   <div>
-    <b>22</b> files in total.
-    <b>156</b> relevant lines. 
-    <span class="green"><b>112</b> lines covered</span> and
-    <span class="red"><b>44</b> lines missed </span>
+    <b>24</b> files in total.
   </div>
+
+  <div class="t-line-summary">
+    <b>93</b> relevant lines,
+    <span class="green"><b>86</b> lines covered</span> and
+    <span class="red"><b>7</b> lines missed. </span>
+    (<span class="green">
+  92.47%
+</span>
+)
+  </div>
+
+  
+
   <table class="file_list">
     <thead>
       <tr>
@@ -46,229 +64,274 @@
         <th>Lines covered</th>
         <th>Lines missed</th>
         <th>Avg. Hits / Line</th>
+        
       </tr>
     </thead>
     <tbody>
       
-      <tr>
-        <td class="strong"><a href="#2156156ad129d3721d3af2aec6328f6d666c0bfb" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>2</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#bc4ac2db32f70e1a2ba18388a29136c3a2fb617c" class="src_link" title="app/jobs/application_job.rb">app/jobs/application_job.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#1d1e73c56cd472a21a4980caddb0702152043114" class="src_link" title="app/controllers/customers_controller.rb">app/controllers/customers_controller.rb</a></td>
-        <td class="red strong">52.17 %</td>
-        <td>44</td>
-        <td>23</td>
-        <td>12</td>
-        <td>11</td>
-        <td>0.5</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#dd7fbc940d1c03b04f552b1a2cf6641b7503dd72" class="src_link" title="app/jobs/movies_job.rb">app/jobs/movies_job.rb</a></td>
+          <td class="red strong t-file__coverage">60.0 %</td>
+          <td>10</td>
+          <td>5</td>
+          <td>3</td>
+          <td>2</td>
+          <td>0.6</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#d9d9eb6ca8808152e3b4c2ee43e537d2a5b417c0" class="src_link" title="app/controllers/genres_controller.rb">app/controllers/genres_controller.rb</a></td>
-        <td class="red strong">52.17 %</td>
-        <td>51</td>
-        <td>23</td>
-        <td>12</td>
-        <td>11</td>
-        <td>0.5</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#b4799a2c87209e402b6b9836e6d2e7454b2fff4b" class="src_link" title="app/mailers/application_mailer.rb">app/mailers/application_mailer.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#af5a9c19b54db163f4ce3d952d5c67e5f4549472" class="src_link" title="app/controllers/movies_controller.rb">app/controllers/movies_controller.rb</a></td>
-        <td class="red strong">52.17 %</td>
-        <td>51</td>
-        <td>23</td>
-        <td>12</td>
-        <td>11</td>
-        <td>0.5</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#8a3994d1b27de7201359b7dd31f4efe44bf0ee7e" class="src_link" title="app/mailers/user_mailer.rb">app/mailers/user_mailer.rb</a></td>
+          <td class="red strong t-file__coverage">33.33 %</td>
+          <td>15</td>
+          <td>6</td>
+          <td>2</td>
+          <td>4</td>
+          <td>0.33</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#c5dc0331549b4ebdc4fabb4988d4075ab838dd74" class="src_link" title="app/controllers/rentals_controller.rb">app/controllers/rentals_controller.rb</a></td>
-        <td class="red strong">52.17 %</td>
-        <td>51</td>
-        <td>23</td>
-        <td>12</td>
-        <td>11</td>
-        <td>0.5</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#de38b6d59a05302ca895ca7e9ea7bf247384e246" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>3</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#de38b6d59a05302ca895ca7e9ea7bf247384e246" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>3</td>
-        <td>2</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#a112b0cf2a18b064279159d191e39667759efb1f" class="src_link" title="app/models/customer.rb">app/models/customer.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>15</td>
+          <td>7</td>
+          <td>7</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#a112b0cf2a18b064279159d191e39667759efb1f" class="src_link" title="app/models/customer.rb">app/models/customer.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>15</td>
-        <td>7</td>
-        <td>7</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#cbb4ae171e5f1885ac9ffbe46591ed3b3455d07f" class="src_link" title="app/models/genre.rb">app/models/genre.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>7</td>
+          <td>4</td>
+          <td>4</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#cbb4ae171e5f1885ac9ffbe46591ed3b3455d07f" class="src_link" title="app/models/genre.rb">app/models/genre.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>7</td>
-        <td>4</td>
-        <td>4</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#a1bc71e67e0d6d539b6014e5a18436a1938b9255" class="src_link" title="app/models/movie.rb">app/models/movie.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>9</td>
+          <td>6</td>
+          <td>6</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#a1bc71e67e0d6d539b6014e5a18436a1938b9255" class="src_link" title="app/models/movie.rb">app/models/movie.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>9</td>
-        <td>6</td>
-        <td>6</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#829d773495c9bcaae8d3a0c740587011669b11e6" class="src_link" title="app/models/rental.rb">app/models/rental.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#829d773495c9bcaae8d3a0c740587011669b11e6" class="src_link" title="app/models/rental.rb">app/models/rental.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>4</td>
-        <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#a638d417bb7c5ce721285bb9f95e0864c6e0e1ed" class="src_link" title="app/models/user.rb">app/models/user.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>3</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#36f7c67c83b8491b617023438e801926de7fd8c7" class="src_link" title="config/application.rb">config/application.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>35</td>
-        <td>15</td>
-        <td>15</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#36f7c67c83b8491b617023438e801926de7fd8c7" class="src_link" title="config/application.rb">config/application.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>36</td>
+          <td>16</td>
+          <td>16</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#ec2f28b65f707b99839aa5a62b65a786bd573d78" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>4</td>
-        <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#ec2f28b65f707b99839aa5a62b65a786bd573d78" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#eb33d4067b6d755319ac34322b0977d2c15a64fe" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>5</td>
-        <td>2</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#eb33d4067b6d755319ac34322b0977d2c15a64fe" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>5</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#e8c25ab4f27bb7e8950ca295e56acaf70b3afd01" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>46</td>
-        <td>13</td>
-        <td>13</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#e8c25ab4f27bb7e8950ca295e56acaf70b3afd01" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>46</td>
+          <td>13</td>
+          <td>13</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#36cdf063ebd4ea87808a442a811aa4f53dc8d5a0" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>8</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#36cdf063ebd4ea87808a442a811aa4f53dc8d5a0" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>8</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#c9c3eaaff0e42dc66d0107c989e0352ce1ace734" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>7</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#57b2d2ef3bda8570a0fe0f1f9ddebf7fc3c1cf19" class="src_link" title="config/initializers/asm.rb">config/initializers/asm.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#7392d092b122429c0e0497733cd332439fa9b726" class="src_link" title="config/initializers/cors.rb">config/initializers/cors.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>16</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#c9c3eaaff0e42dc66d0107c989e0352ce1ace734" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>7</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#800d4fbba842d95c393ce2ce83127289c0421bc7" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>4</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#7392d092b122429c0e0497733cd332439fa9b726" class="src_link" title="config/initializers/cors.rb">config/initializers/cors.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>16</td>
+          <td>4</td>
+          <td>4</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#b69f3aaf8a17c0a34acb1e1b5e0cc6de64763694" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>16</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#800d4fbba842d95c393ce2ce83127289c0421bc7" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#8cd461196e0cccd9a95f2fffdfb5d32adf396abe" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>4</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#b69f3aaf8a17c0a34acb1e1b5e0cc6de64763694" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>16</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#c8112cf33b712e16e78158ef3d63c515246b238f" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>14</td>
-        <td>2</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1.5</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#8cd461196e0cccd9a95f2fffdfb5d32adf396abe" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>4</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0.0</td>
+          
+        </tr>
       
-      <tr>
-        <td class="strong"><a href="#00573824f98558e8ddec37d0056f120b0b313aa9" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>6</td>
-        <td>5</td>
-        <td>5</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#7dc7fc4655e1194667b54b4dbf06486fb90ebc77" class="src_link" title="config/initializers/sidekiq.rb">config/initializers/sidekiq.rb</a></td>
+          <td class="red strong t-file__coverage">75.0 %</td>
+          <td>7</td>
+          <td>4</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0.75</td>
+          
+        </tr>
+      
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#c8112cf33b712e16e78158ef3d63c515246b238f" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>14</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
+      
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#00573824f98558e8ddec37d0056f120b0b313aa9" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>12</td>
+          <td>9</td>
+          <td>9</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
       
     </tbody>
   </table>
@@ -277,1298 +340,474 @@
 
         
       </div>
-    
+
       <div id="footer">
-        Generated by <a href="http://github.com/colszowka/simplecov">simplecov</a> v0.17.1 
-        and simplecov-html v0.10.2<br/>
+        Generated by <a href="http://github.com/colszowka/simplecov">simplecov</a> v0.18.1
+        and simplecov-html v0.11.0<br/>
         using RSpec
       </div>
-    
+
       <div class="source_files">
       
-        <div class="source_table" id="2156156ad129d3721d3af2aec6328f6d666c0bfb">
+        <div class="source_table" id="bc4ac2db32f70e1a2ba18388a29136c3a2fb617c">
   <div class="header">
-    <h3>app/controllers/application_controller.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>1</b> relevant lines. 
+    <h3>app/jobs/application_job.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>1</b> relevant lines.
       <span class="green"><b>1</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class ApplicationController &lt; ActionController::API</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class ApplicationJob &lt; ActiveJob::Base</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
 </div>
 
       
-        <div class="source_table" id="1d1e73c56cd472a21a4980caddb0702152043114">
+        <div class="source_table" id="dd7fbc940d1c03b04f552b1a2cf6641b7503dd72">
   <div class="header">
-    <h3>app/controllers/customers_controller.rb</h3>
-    <h4><span class="red">52.17 %</span> covered</h4>
-    <div>
-      <b>23</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>11</b> lines missed.</span>
+    <h3>app/jobs/movies_job.rb</h3>
+    <h4>
+      <span class="red">
+  60.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>5</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class CustomersController &lt; ApplicationController</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class MoviesJob &lt; ApplicationJob</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  before_action :set_customer,only: [:show, :update, :destroy]</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  queue_as :default</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def index</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def perform(*args)</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    @customers = Customer.all</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">    # @movies = Movie.all    # Do something later</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    render json: @customers</code>
-        </li>
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">    [*(1..100000000000000000000000000)].each do |num|</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">      puts num if num.even?</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="8">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def show</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
       
-        <li class="missed" data-hits="0" data-linenumber="10">
-          
-          
-          <code class="ruby">    render json: @customer</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def create</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="14">
-          
-          
-          <code class="ruby">    @customer = Customer.new(customer_params)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="15">
-          
-          
-          <code class="ruby">    if @customer.save</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="16">
-          
-          
-          <code class="ruby">      render json: @customer, status: :created, location: @customer</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="17">
-          
-          
-          <code class="ruby">    else</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="18">
-          
-          
-          <code class="ruby">      render json: @customer.errors, status: :unprocessable_entity</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="19">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="20">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="21">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="22">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="23">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def update</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="24">
-          
-          
-          <code class="ruby">    if @customer.update(customer_params)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="25">
-          
-          
-          <code class="ruby">      render json: @customer</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="26">
-          
-          
-          <code class="ruby">    else</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="27">
-          
-          
-          <code class="ruby">      render json: @customer, status: :unprocessable_entity</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="28">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="29">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="30">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="31">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def destroy</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="32">
-          
-          
-          <code class="ruby">    @customer.destroy</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="33">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="34">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="35">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  private </code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="36">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def set_customer</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="37">
-          
-          
-          <code class="ruby">    @customer = Customer.find(params[id])</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="38">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="39">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="40">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def customer_params</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="41">
-          
-          
-          <code class="ruby">    params.require(:customer).permit(:name,:email,:phone)     </code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="42">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="43">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="44">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
 </div>
 
       
-        <div class="source_table" id="d9d9eb6ca8808152e3b4c2ee43e537d2a5b417c0">
+        <div class="source_table" id="b4799a2c87209e402b6b9836e6d2e7454b2fff4b">
   <div class="header">
-    <h3>app/controllers/genres_controller.rb</h3>
-    <h4><span class="red">52.17 %</span> covered</h4>
-    <div>
-      <b>23</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>11</b> lines missed.</span>
+    <h3>app/mailers/application_mailer.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>3</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class GenresController &lt; ApplicationController</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class ApplicationMailer &lt; ActionMailer::Base</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  before_action :set_genre, only: [:show, :update, :destroy]</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  default from: &#39;from@example.com&#39;,subject: &#39;New subject&#39;,cc: &#39;admin@gcmega.net&#39;,bcc: &#39;info@divcon.net&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  layout &#39;mailer&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">  # GET /genres</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def index</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    @genres = Genre.all</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    render json: @genres</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">  # GET /genres/1</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def show</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="13">
-          
-          
-          <code class="ruby">    render json: @genre</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby">  # POST /genres</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="17">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def create</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="18">
-          
-          
-          <code class="ruby">    @genre = Genre.new(genre_params)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="19">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="20">
-          
-          
-          <code class="ruby">    if @genre.save</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="21">
-          
-          
-          <code class="ruby">      render json: @genre, status: :created, location: @genre</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="22">
-          
-          
-          <code class="ruby">    else</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="23">
-          
-          
-          <code class="ruby">      render json: @genre.errors, status: :unprocessable_entity</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="24">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="25">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="26">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="27">
-          
-          
-          <code class="ruby">  # PATCH/PUT /genres/1</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="28">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def update</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="29">
-          
-          
-          <code class="ruby">    if @genre.update(genre_params)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="30">
-          
-          
-          <code class="ruby">      render json: @genre</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="31">
-          
-          
-          <code class="ruby">    else</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="32">
-          
-          
-          <code class="ruby">      render json: @genre.errors, status: :unprocessable_entity</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="33">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="34">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="35">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="36">
-          
-          
-          <code class="ruby">  # DELETE /genres/1</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="37">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def destroy</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="38">
-          
-          
-          <code class="ruby">    @genre.destroy</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="39">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="40">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="41">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  private</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="42">
-          
-          
-          <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="43">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    def set_genre</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="44">
-          
-          
-          <code class="ruby">      @genre = Genre.find(params[:id])</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="45">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="46">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="47">
-          
-          
-          <code class="ruby">    # Only allow a trusted parameter &quot;white list&quot; through.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="48">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    def genre_params</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="49">
-          
-          
-          <code class="ruby">      params.require(:genre).permit(:name, :description)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="50">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="51">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
 </div>
 
       
-        <div class="source_table" id="af5a9c19b54db163f4ce3d952d5c67e5f4549472">
+        <div class="source_table" id="8a3994d1b27de7201359b7dd31f4efe44bf0ee7e">
   <div class="header">
-    <h3>app/controllers/movies_controller.rb</h3>
-    <h4><span class="red">52.17 %</span> covered</h4>
-    <div>
-      <b>23</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>11</b> lines missed.</span>
-    </div>
-  </div>
-  
-  <pre>
-    <ol>
-      
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class MoviesController &lt; ApplicationController</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  before_action :set_movie, only: [:show, :update, :destroy]</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">  # GET /movies</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def index</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    @movies = Movie.all</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    render json: @movies</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">  # GET /movies/1</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def show</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="13">
-          
-          
-          <code class="ruby">    render json: @movie</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby">  # POST /movies</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="17">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def create</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="18">
-          
-          
-          <code class="ruby">    @movie = Movie.new(movie_params)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="19">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="20">
-          
-          
-          <code class="ruby">    if @movie.save</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="21">
-          
-          
-          <code class="ruby">      render json: @movie, status: :created, location: @movie</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="22">
-          
-          
-          <code class="ruby">    else</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="23">
-          
-          
-          <code class="ruby">      render json: @movie.errors, status: :unprocessable_entity</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="24">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="25">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="26">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="27">
-          
-          
-          <code class="ruby">  # PATCH/PUT /movies/1</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="28">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def update</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="29">
-          
-          
-          <code class="ruby">    if @movie.update(movie_params)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="30">
-          
-          
-          <code class="ruby">      render json: @movie</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="31">
-          
-          
-          <code class="ruby">    else</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="32">
-          
-          
-          <code class="ruby">      render json: @movie.errors, status: :unprocessable_entity</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="33">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="34">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="35">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="36">
-          
-          
-          <code class="ruby">  # DELETE /movies/1</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="37">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def destroy</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="38">
-          
-          
-          <code class="ruby">    @movie.destroy</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="39">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="40">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="41">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  private</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="42">
-          
-          
-          <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="43">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    def set_movie</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="44">
-          
-          
-          <code class="ruby">      @movie = Movie.find(params[:id])</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="45">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="46">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="47">
-          
-          
-          <code class="ruby">    # Only allow a trusted parameter &quot;white list&quot; through.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="48">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    def movie_params</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="49">
-          
-          
-          <code class="ruby">      params.require(:movie).permit(:title, :genre_id, :number_in_stock, :daily_rental_rate)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="50">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="51">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-    </ol>
-  </pre>
-</div>
+    <h3>app/mailers/user_mailer.rb</h3>
+    <h4>
+      <span class="red">
+  33.33%
+</span>
 
-      
-        <div class="source_table" id="c5dc0331549b4ebdc4fabb4988d4075ab838dd74">
-  <div class="header">
-    <h3>app/controllers/rentals_controller.rb</h3>
-    <h4><span class="red">52.17 %</span> covered</h4>
-    <div>
-      <b>23</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>11</b> lines missed.</span>
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>6</b> relevant lines.
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>4</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class RentalsController &lt; ApplicationController</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class UserMailer &lt; ApplicationMailer</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  before_action :set_rental, only: [:show, :update, :destroy]</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">  # Subject can be set in your I18n file at config/locales/en.yml</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">  # GET /rentals</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">  # with the following lookup:</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def index</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">  #</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    @rentals = Rental.all</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">  #   en.user_mailer.sign_up.subject</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  #</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    render json: @rentals</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def sign_up(user)</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">    @greeting = &quot;Hi #{user.first_name} #{user.last_name}&quot;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">    @body = &quot;You are welcome to &#39;Movie rental&#39; portal.Please &lt;%= link_to(&#39;visit our movies page &#39;,root_path) %&gt; to rent the lattest movies&quot;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">  # GET /rentals/1</code>
-        </li>
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">    @conclusion =&quot;Thank you&quot;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def show</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="missed" data-hits="0" data-linenumber="13">
-          
-          
-          <code class="ruby">    render json: @rental</code>
-        </li>
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">    mail to: &quot;#{user.email}&quot;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby">  # POST /rentals</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="17">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def create</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="18">
-          
-          
-          <code class="ruby">    @rental = Rental.new(rental_params)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="19">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="20">
-          
-          
-          <code class="ruby">    if @rental.save</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="21">
-          
-          
-          <code class="ruby">      render json: @rental, status: :created, location: @rental</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="22">
-          
-          
-          <code class="ruby">    else</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="23">
-          
-          
-          <code class="ruby">      render json: @rental.errors, status: :unprocessable_entity</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="24">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="25">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="26">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="27">
-          
-          
-          <code class="ruby">  # PATCH/PUT /rentals/1</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="28">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def update</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="29">
-          
-          
-          <code class="ruby">    if @rental.update(rental_params)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="30">
-          
-          
-          <code class="ruby">      render json: @rental</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="31">
-          
-          
-          <code class="ruby">    else</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="32">
-          
-          
-          <code class="ruby">      render json: @rental.errors, status: :unprocessable_entity</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="33">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="34">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="35">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="36">
-          
-          
-          <code class="ruby">  # DELETE /rentals/1</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="37">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def destroy</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="38">
-          
-          
-          <code class="ruby">    @rental.destroy</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="39">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="40">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="41">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  private</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="42">
-          
-          
-          <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="43">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    def set_rental</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="44">
-          
-          
-          <code class="ruby">      @rental = Rental.find(params[:id])</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="45">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="46">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="47">
-          
-          
-          <code class="ruby">    # Only allow a trusted parameter &quot;white list&quot; through.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="48">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    def rental_params</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="49">
-          
-          
-          <code class="ruby">      params.require(:rental).permit(:movie_id, :customer_id, :checkout_date, :return_date, :rental_fee)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="50">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="51">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -1578,34 +817,61 @@
         <div class="source_table" id="de38b6d59a05302ca895ca7e9ea7bf247384e246">
   <div class="header">
     <h3>app/models/application_record.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>2</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>2</b> relevant lines.
       <span class="green"><b>2</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class ApplicationRecord &lt; ActiveRecord::Base</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class ApplicationRecord &lt; ActiveRecord::Base</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  self.abstract_class = true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  self.abstract_class = true</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -1615,106 +881,193 @@
         <div class="source_table" id="a112b0cf2a18b064279159d191e39667759efb1f">
   <div class="header">
     <h3>app/models/customer.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>7</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>7</b> relevant lines.
       <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class Customer &lt; ApplicationRecord</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Customer &lt; ApplicationRecord</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  has_many :rental</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  has_many :rentals</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  VALID_PHONE_NUMBER = /\d[0-9]\)*\z/</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  VALID_PHONE_NUMBER = /\d[0-9]\)*\z/</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  VALID_EMAIL_ADDRESS =/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  VALID_EMAIL_ADDRESS =/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  validates :name, presence: true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :name, presence: true</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="8">
-          
-          
-          <code class="ruby">  </code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">  </code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  validates :phone, presence: true, format: { with: VALID_PHONE_NUMBER,</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :phone, presence: true, format: { with: VALID_PHONE_NUMBER,</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">    message: &quot;only positive numbers without spaces are allowed&quot; }</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">    message: &quot;only positive numbers without spaces are allowed&quot; }</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  validates :email, presence: true,uniqueness: true,format: {with: VALID_EMAIL_ADDRESS,</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :email, presence: true,uniqueness: true,format: {with: VALID_EMAIL_ADDRESS,</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="13">
-          
-          
-          <code class="ruby">             message: &quot;only valid email addresses allowed&quot;}</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">             message: &quot;only valid email addresses allowed&quot;}</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -1724,58 +1077,105 @@
         <div class="source_table" id="cbb4ae171e5f1885ac9ffbe46591ed3b3455d07f">
   <div class="header">
     <h3>app/models/genre.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>4</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>4</b> relevant lines.
       <span class="green"><b>4</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class Genre &lt; ApplicationRecord</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Genre &lt; ApplicationRecord</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  has_many :movies, dependent: :destroy</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  has_many :movies, dependent: :destroy</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  validates :name,presence: true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :name,presence: true</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  validates :description, presence: true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :description, presence: true</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -1785,70 +1185,127 @@
         <div class="source_table" id="a1bc71e67e0d6d539b6014e5a18436a1938b9255">
   <div class="header">
     <h3>app/models/movie.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>6</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>6</b> relevant lines.
       <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class Movie &lt; ApplicationRecord</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Movie &lt; ApplicationRecord</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  belongs_to :genre</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  belongs_to :genre</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  has_many :rental</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  has_many :rentals</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  validates :title, presence: true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :title, presence: true</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  validates :number_in_stock, numericality: true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :number_in_stock, numericality: true</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  validates :daily_rental_rate, numericality: true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :daily_rental_rate, numericality: true</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="8">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -1858,40 +1315,136 @@
         <div class="source_table" id="829d773495c9bcaae8d3a0c740587011669b11e6">
   <div class="header">
     <h3>app/models/rental.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>3</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>3</b> relevant lines.
       <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class Rental &lt; ApplicationRecord</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Rental &lt; ApplicationRecord</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  belongs_to :movie</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  belongs_to :movie</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  belongs_to :customer</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  belongs_to :customer</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="a638d417bb7c5ce721285bb9f95e0864c6e0e1ed">
+  <div class="header">
+    <h3>app/models/user.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>2</b> relevant lines.
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class User &lt; ApplicationRecord</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  has_secure_password</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -1901,226 +1454,424 @@
         <div class="source_table" id="36f7c67c83b8491b617023438e801926de7fd8c7">
   <div class="header">
     <h3>config/application.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>15</b> relevant lines. 
-      <span class="green"><b>15</b> lines covered</span> and
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>16</b> relevant lines.
+      <span class="green"><b>16</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require_relative &#39;boot&#39;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require_relative &#39;boot&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;rails&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;rails&quot;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"># Pick the frameworks you want:</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"># Pick the frameworks you want:</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;active_model/railtie&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;active_model/railtie&quot;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;active_job/railtie&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;active_job/railtie&quot;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;active_record/railtie&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;active_record/railtie&quot;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;active_storage/engine&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;active_storage/engine&quot;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;action_controller/railtie&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;action_controller/railtie&quot;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="10">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;action_mailer/railtie&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;action_mailer/railtie&quot;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="11">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;action_view/railtie&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;action_view/railtie&quot;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &quot;action_cable/engine&quot;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;action_cable/engine&quot;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="13">
-          
-          
-          <code class="ruby"># require &quot;sprockets/railtie&quot;</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby"># require &quot;sprockets/railtie&quot;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby"># require &quot;rails/test_unit/railtie&quot;</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby"># require &quot;rails/test_unit/railtie&quot;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby"># Require the gems listed in Gemfile, including any gems</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby"># Require the gems listed in Gemfile, including any gems</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="17">
-          
-          
-          <code class="ruby"># you&#39;ve limited to :test, :development, or :production.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby"># you&#39;ve limited to :test, :development, or :production.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="18">
-          <span class="hits">1</span>
-          
-          <code class="ruby">Bundler.require(*Rails.groups)</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">Bundler.require(*Rails.groups)</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="19">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="20">
-          <span class="hits">1</span>
-          
-          <code class="ruby">module MovieRental</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">module MovieRental</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="21">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  class Application &lt; Rails::Application</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  class Application &lt; Rails::Application</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="22">
-          
-          
-          <code class="ruby">    # Initialize configuration defaults for originally generated Rails version.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">    # Initialize configuration defaults for originally generated Rails version.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="23">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    config.load_defaults 5.2</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    config.load_defaults 5.2</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="24">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="25">
-          
-          
-          <code class="ruby">    # Settings in config/environments/* take precedence over those specified here.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby">    # Settings in config/environments/* take precedence over those specified here.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="26">
-          
-          
-          <code class="ruby">    # Application configuration can go into files in config/initializers</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby">    # Application configuration can go into files in config/initializers</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="27">
-          
-          
-          <code class="ruby">    # -- all .rb files in that directory are automatically loaded after loading</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby">    # -- all .rb files in that directory are automatically loaded after loading</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="28">
-          
-          
-          <code class="ruby">    # the framework and any gems in your application.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="28">
+            
+            
+
+            
+
+            <code class="ruby">    # the framework and any gems in your application.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="29">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="29">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="30">
-          
-          
-          <code class="ruby">    # Only loads a smaller set of middleware suitable for API only apps.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">    # Only loads a smaller set of middleware suitable for API only apps.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="31">
-          
-          
-          <code class="ruby">    # Middleware like session, flash, cookies can be added back manually.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby">    # Middleware like session, flash, cookies can be added back manually.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="32">
-          
-          
-          <code class="ruby">    # Skip views, helpers and assets when generating a new resource.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby">    # Skip views, helpers and assets when generating a new resource.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="33">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    config.api_only = true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="33">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    config.api_only = true</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="34">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="34">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    config.active_job.queue_adapter = Rails.env.development? ? :sidekiq : :async</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="35">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="35">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2130,40 +1881,72 @@
         <div class="source_table" id="ec2f28b65f707b99839aa5a62b65a786bd573d78">
   <div class="header">
     <h3>config/boot.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>3</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>3</b> relevant lines.
       <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">ENV[&#39;BUNDLE_GEMFILE&#39;] ||= File.expand_path(&#39;../Gemfile&#39;, __dir__)</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">ENV[&#39;BUNDLE_GEMFILE&#39;] ||= File.expand_path(&#39;../Gemfile&#39;, __dir__)</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &#39;bundler/setup&#39; # Set up gems listed in the Gemfile.</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;bundler/setup&#39; # Set up gems listed in the Gemfile.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &#39;bootsnap/setup&#39; # Speed up boot time by caching expensive operations.</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;bootsnap/setup&#39; # Speed up boot time by caching expensive operations.</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2173,46 +1956,83 @@
         <div class="source_table" id="eb33d4067b6d755319ac34322b0977d2c15a64fe">
   <div class="header">
     <h3>config/environment.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>2</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>2</b> relevant lines.
       <span class="green"><b>2</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Load the Rails application.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># Load the Rails application.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require_relative &#39;application&#39;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require_relative &#39;application&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"># Initialize the Rails application.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"># Initialize the Rails application.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">Rails.application.initialize!</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">Rails.application.initialize!</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2222,292 +2042,534 @@
         <div class="source_table" id="e8c25ab4f27bb7e8950ca295e56acaf70b3afd01">
   <div class="header">
     <h3>config/environments/test.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>13</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>13</b> relevant lines.
       <span class="green"><b>13</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">Rails.application.configure do</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">Rails.application.configure do</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby">  # Settings specified here will take precedence over those in config/application.rb.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby">  # Settings specified here will take precedence over those in config/application.rb.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">  # The test environment is used exclusively to run your application&#39;s</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">  # The test environment is used exclusively to run your application&#39;s</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby">  # test suite. You never need to work with it otherwise. Remember that</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">  # test suite. You never need to work with it otherwise. Remember that</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby">  # your test database is &quot;scratch space&quot; for the test suite and is wiped</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">  # your test database is &quot;scratch space&quot; for the test suite and is wiped</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby">  # and recreated between test runs. Don&#39;t rely on the data there!</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  # and recreated between test runs. Don&#39;t rely on the data there!</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.cache_classes = true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.cache_classes = true</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">  # Do not eager load code on boot. This avoids loading your whole application</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  # Do not eager load code on boot. This avoids loading your whole application</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">  # just for the purpose of running a single test. If you are using a tool that</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  # just for the purpose of running a single test. If you are using a tool that</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby">  # preloads Rails for running tests, you may have to set it to true.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">  # preloads Rails for running tests, you may have to set it to true.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.eager_load = false</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.eager_load = false</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby">  # Configure public file server for tests with Cache-Control for performance.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">  # Configure public file server for tests with Cache-Control for performance.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="16">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.public_file_server.enabled = true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.public_file_server.enabled = true</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="17">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.public_file_server.headers = {</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.public_file_server.headers = {</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="18">
-          
-          
-          <code class="ruby">    &#39;Cache-Control&#39; =&gt; &quot;public, max-age=#{1.hour.to_i}&quot;</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">    &#39;Cache-Control&#39; =&gt; &quot;public, max-age=#{1.hour.to_i}&quot;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="19">
-          
-          
-          <code class="ruby">  }</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">  }</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="20">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="21">
-          
-          
-          <code class="ruby">  # Show full error reports and disable caching.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">  # Show full error reports and disable caching.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="22">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.consider_all_requests_local       = true</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.consider_all_requests_local       = true</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="23">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.action_controller.perform_caching = false</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.action_controller.perform_caching = false</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="24">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="25">
-          
-          
-          <code class="ruby">  # Raise exceptions instead of rendering exception templates.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby">  # Raise exceptions instead of rendering exception templates.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="26">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.action_dispatch.show_exceptions = false</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.action_dispatch.show_exceptions = false</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="27">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="28">
-          
-          
-          <code class="ruby">  # Disable request forgery protection in test environment.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="28">
+            
+            
+
+            
+
+            <code class="ruby">  # Disable request forgery protection in test environment.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="29">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.action_controller.allow_forgery_protection = false</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.action_controller.allow_forgery_protection = false</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="30">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="31">
-          
-          
-          <code class="ruby">  # Store uploaded files on the local file system in a temporary directory</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby">  # Store uploaded files on the local file system in a temporary directory</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="32">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.active_storage.service = :test</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="32">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.active_storage.service = :test</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="33">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="33">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="34">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.action_mailer.perform_caching = false</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="34">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.action_mailer.perform_caching = false</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="35">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="35">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="36">
-          
-          
-          <code class="ruby">  # Tell Action Mailer not to deliver emails to the real world.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby">  # Tell Action Mailer not to deliver emails to the real world.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="37">
-          
-          
-          <code class="ruby">  # The :test delivery method accumulates sent emails in the</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="37">
+            
+            
+
+            
+
+            <code class="ruby">  # The :test delivery method accumulates sent emails in the</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="38">
-          
-          
-          <code class="ruby">  # ActionMailer::Base.deliveries array.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="38">
+            
+            
+
+            
+
+            <code class="ruby">  # ActionMailer::Base.deliveries array.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="39">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.action_mailer.delivery_method = :test</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="39">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.action_mailer.delivery_method = :test</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="40">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="40">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="41">
-          
-          
-          <code class="ruby">  # Print deprecation notices to the stderr.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="41">
+            
+            
+
+            
+
+            <code class="ruby">  # Print deprecation notices to the stderr.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="42">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  config.active_support.deprecation = :stderr</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.active_support.deprecation = :stderr</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="43">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="43">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="44">
-          
-          
-          <code class="ruby">  # Raises error for missing translations</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="44">
+            
+            
+
+            
+
+            <code class="ruby">  # Raises error for missing translations</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="45">
-          
-          
-          <code class="ruby">  # config.action_view.raise_on_missing_translations = true</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="45">
+            
+            
+
+            
+
+            <code class="ruby">  # config.action_view.raise_on_missing_translations = true</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="46">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="46">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2517,64 +2579,158 @@
         <div class="source_table" id="36cdf063ebd4ea87808a442a811aa4f53dc8d5a0">
   <div class="header">
     <h3>config/initializers/application_controller_renderer.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>0</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>0</b> relevant lines.
       <span class="green"><b>0</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"># ActiveSupport::Reloader.to_prepare do</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"># ActiveSupport::Reloader.to_prepare do</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">#   ApplicationController.renderer.defaults.merge!(</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">#   ApplicationController.renderer.defaults.merge!(</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby">#     http_host: &#39;example.org&#39;,</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">#     http_host: &#39;example.org&#39;,</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby">#     https: false</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">#     https: false</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby">#   )</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">#   )</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="8">
-          
-          
-          <code class="ruby"># end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"># end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="57b2d2ef3bda8570a0fe0f1f9ddebf7fc3c1cf19">
+  <div class="header">
+    <h3>config/initializers/asm.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>0</b> relevant lines.
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># ActiveModelSerializers.config.adapter = :json_api</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2584,58 +2740,105 @@
         <div class="source_table" id="c9c3eaaff0e42dc66d0107c989e0352ce1ace734">
   <div class="header">
     <h3>config/initializers/backtrace_silencers.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>0</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>0</b> relevant lines.
       <span class="green"><b>0</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"># You can add backtrace silencers for libraries that you&#39;re using but don&#39;t wish to see in your backtraces.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"># You can add backtrace silencers for libraries that you&#39;re using but don&#39;t wish to see in your backtraces.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"># Rails.backtrace_cleaner.add_silencer { |line| line =~ /my_noisy_library/ }</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"># Rails.backtrace_cleaner.add_silencer { |line| line =~ /my_noisy_library/ }</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby"># You can also remove all the silencers if you&#39;re trying to debug a problem that might stem from framework code.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"># You can also remove all the silencers if you&#39;re trying to debug a problem that might stem from framework code.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby"># Rails.backtrace_cleaner.remove_silencers!</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby"># Rails.backtrace_cleaner.remove_silencers!</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2645,112 +2848,204 @@
         <div class="source_table" id="7392d092b122429c0e0497733cd332439fa9b726">
   <div class="header">
     <h3>config/initializers/cors.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>0</b> relevant lines. 
-      <span class="green"><b>0</b> lines covered</span> and
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>4</b> relevant lines.
+      <span class="green"><b>4</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"># Avoid CORS issues when API is called from the frontend app.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"># Avoid CORS issues when API is called from the frontend app.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"># Handle Cross-Origin Resource Sharing (CORS) in order to accept cross-origin AJAX requests.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"># Handle Cross-Origin Resource Sharing (CORS) in order to accept cross-origin AJAX requests.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby"># Read more: https://github.com/cyu/rack-cors</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"># Read more: https://github.com/cyu/rack-cors</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="8">
-          
-          
-          <code class="ruby"># Rails.application.config.middleware.insert_before 0, Rack::Cors do</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">Rails.application.config.middleware.insert_before 0, Rack::Cors do</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">#   allow do</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  allow do</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">#     origins &#39;example.com&#39;</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    origins &#39;*&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">#</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby">#     resource &#39;*&#39;,</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    resource &#39;*&#39;,</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="13">
-          
-          
-          <code class="ruby">#       headers: :any,</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">      headers: :any,</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby">#       methods: [:get, :post, :put, :patch, :delete, :options, :head]</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">      methods: [:get, :post, :put, :patch, :delete, :options, :head]</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby">#   end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby"># end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2760,40 +3055,72 @@
         <div class="source_table" id="800d4fbba842d95c393ce2ce83127289c0421bc7">
   <div class="header">
     <h3>config/initializers/filter_parameter_logging.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>1</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>1</b> relevant lines.
       <span class="green"><b>1</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"># Configure sensitive parameters which will be filtered from the log file.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"># Configure sensitive parameters which will be filtered from the log file.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
-          
-          <code class="ruby">Rails.application.config.filter_parameters += [:password]</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">Rails.application.config.filter_parameters += [:password]</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2803,112 +3130,204 @@
         <div class="source_table" id="b69f3aaf8a17c0a34acb1e1b5e0cc6de64763694">
   <div class="header">
     <h3>config/initializers/inflections.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>0</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>0</b> relevant lines.
       <span class="green"><b>0</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"># Add new inflection rules using the following format. Inflections</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"># Add new inflection rules using the following format. Inflections</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"># are locale specific, and you may define rules for as many different</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"># are locale specific, and you may define rules for as many different</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby"># locales as you wish. All of these examples are active by default:</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby"># locales as you wish. All of these examples are active by default:</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby"># ActiveSupport::Inflector.inflections(:en) do |inflect|</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"># ActiveSupport::Inflector.inflections(:en) do |inflect|</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby">#   inflect.plural /^(ox)$/i, &#39;\1en&#39;</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">#   inflect.plural /^(ox)$/i, &#39;\1en&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="8">
-          
-          
-          <code class="ruby">#   inflect.singular /^(ox)en/i, &#39;\1&#39;</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">#   inflect.singular /^(ox)en/i, &#39;\1&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">#   inflect.irregular &#39;person&#39;, &#39;people&#39;</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">#   inflect.irregular &#39;person&#39;, &#39;people&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">#   inflect.uncountable %w( fish sheep )</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">#   inflect.uncountable %w( fish sheep )</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby"># end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"># end</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="13">
-          
-          
-          <code class="ruby"># These inflection rules are supported but not enabled by default:</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby"># These inflection rules are supported but not enabled by default:</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby"># ActiveSupport::Inflector.inflections(:en) do |inflect|</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby"># ActiveSupport::Inflector.inflections(:en) do |inflect|</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby">#   inflect.acronym &#39;RESTful&#39;</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">#   inflect.acronym &#39;RESTful&#39;</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby"># end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby"># end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2918,40 +3337,180 @@
         <div class="source_table" id="8cd461196e0cccd9a95f2fffdfb5d32adf396abe">
   <div class="header">
     <h3>config/initializers/mime_types.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>0</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>0</b> relevant lines.
       <span class="green"><b>0</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"># Add new mime types for use in respond_to blocks:</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"># Add new mime types for use in respond_to blocks:</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"># Mime::Type.register &quot;text/richtext&quot;, :rtf</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"># Mime::Type.register &quot;text/richtext&quot;, :rtf</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="7dc7fc4655e1194667b54b4dbf06486fb90ebc77">
+  <div class="header">
+    <h3>config/initializers/sidekiq.rb</h3>
+    <h4>
+      <span class="red">
+  75.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>4</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">Sidekiq.configure_server do |config|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby">  config.redis ={url: &#39;redis://localhost:7777/0&#39;}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">Sidekiq.configure_client do |config|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  config.redis ={url: &#39;redis://localhost:7777/0&#39;}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -2961,100 +3520,182 @@
         <div class="source_table" id="c8112cf33b712e16e78158ef3d63c515246b238f">
   <div class="header">
     <h3>config/initializers/wrap_parameters.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>2</b> relevant lines. 
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>2</b> relevant lines.
       <span class="green"><b>2</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Be sure to restart your server when you modify this file.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># Be sure to restart your server when you modify this file.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"># This file contains settings for ActionController::ParamsWrapper which</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"># This file contains settings for ActionController::ParamsWrapper which</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby"># is enabled by default.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"># is enabled by default.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby"># Enable parameter wrapping for JSON. You can disable this by setting :format to an empty array.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"># Enable parameter wrapping for JSON. You can disable this by setting :format to an empty array.</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
-          <span class="hits">1</span>
-          
-          <code class="ruby">ActiveSupport.on_load(:action_controller) do</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">ActiveSupport.on_load(:action_controller) do</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="2" data-linenumber="8">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  wrap_parameters format: [:json]</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  wrap_parameters format: [:json]</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby"></code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby"># To enable root element in JSON for ActiveRecord objects.</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"># To enable root element in JSON for ActiveRecord objects.</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby"># ActiveSupport.on_load(:active_record) do</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"># ActiveSupport.on_load(:active_record) do</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="13">
-          
-          
-          <code class="ruby">#   self.include_root_in_json = true</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">#   self.include_root_in_json = true</code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby"># end</code>
-        </li>
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby"># end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
@@ -3064,52 +3705,160 @@
         <div class="source_table" id="00573824f98558e8ddec37d0056f120b0b313aa9">
   <div class="header">
     <h3>config/routes.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>5</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>9</b> relevant lines.
+      <span class="green"><b>9</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
+
+    
+
   </div>
-  
+
   <pre>
     <ol>
       
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">Rails.application.routes.draw do</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">Rails.application.routes.draw do</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  resources :rentals</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  require &#39;sidekiq/web&#39;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  resources :movies</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  mount Sidekiq::Web =&gt; &#39;/sidekiq&#39;</code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  resources :genres</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  namespace :api do </code>
+          </li>
+        </div>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  resources :customers</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    namespace :v1 do </code>
+          </li>
+        </div>
       
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby">end</code>
-        </li>
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      resources :rentals</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      resources :movies</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      resources :genres</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      resources :customers</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
       
     </ol>
   </pre>
